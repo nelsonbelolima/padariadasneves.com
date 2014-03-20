@@ -1,0 +1,128 @@
+/* Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+
+
+html,body{
+margin:0;
+padding:0;
+font-family: Arial;
+background: #fff;
+}
+
+
+#wrapper{
+width: 980px;
+margin: 0 auto;
+}
+
+.main{
+width: 980px;
+float: left;
+}
+
+.header, .content, .bottom, .sep2{
+width: 100%;
+float: left;
+}
+
+
+
+h1.logo{
+text-align: center;
+font-size: 30px;
+background: url(../images/logo.png) left top no-repeat;
+width: 158px;
+height: 94px;
+margin: 35px auto 0 auto;
+color: #ffffff;
+padding: 46px 0 0 0;
+}
+
+h2{
+text-align: center;
+font-size: 16px;
+color: #4c2717;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-weight: bold;
+margin-top: 10px;
+
+}
+
+
+.content{
+background: url(../images/main_image.jpg) center top no-repeat;
+padding-top: 183px;
+color: #f77154;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.content p{
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+}
+
+.bottom{
+background: url(../images/sep1.png) left top no-repeat;
+padding-top: 40px;
+}
+
+p.left{
+width: 450px;
+text-align: right;
+color: #f77154;
+font-size: 20px;
+float: left;
+letter-spacing: -0.1px;
+margin: 0 30px 0 0;
+padding: 0;
+}
+
+p.left cufon{
+margin-bottom: 5px;
+}
+
+.form{
+float: left;
+}
+
+.field{
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;
+background: #fff4f1;
+width: 310px;
+outline: none;
+border: none;
+font-size: 16px;
+font-family: Arial;
+color: #86554a;
+height: 43px;
+float: left;
+padding: 0 50px 0 20px;
+}
+
+.submit{
+-webkit-border-radius: 49px;-moz-border-radius: 49px;border-radius: 49px;
+width: 49px;
+height: 44px;
+float: left;
+outline: none;
+border: none;
+margin: 0 0 0 -49px;
+background: url(../images/go.png) left top no-repeat;
+cursor: pointer;
+}
+
+
+.submit:hover{
+background: url(../images/go.png) left bottom no-repeat;
+}
+
+.sep2{
+background: url(../images/sep2.png) left top no-repeat;
+height: 21px;
+margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="pt">
+<title>Padaria das Neves</title>
+<link href="tools/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="tools/jquery.min.js"></script>
+<script type="text/javascript" src="tools/cufon-yui.js"></script>
+<script type="text/javascript" src="tools/DIN_300-DIN_700.font.js"></script>
+<script type="text/javascript" src="tools/DIN_500.font.js"></script>
+<script type="text/javascript" src="tools/DINCond-Bold_500.font.js"></script>
+<script type="text/javascript" src="tools/Elementa_700.font.js"></script>
+
+
+
+<script type="text/javascript">
+   Cufon.replace('h1.logo, input.submit', {fontFamily: 'Elementa'});
+   Cufon.replace('h2, p.left', {fontFamily: 'DIN'});
+   Cufon.replace('.content p', {fontFamily: 'DINCond-Bold'});
+   Cufon.replace('p.big_text, p.small_text', {fontFamily: 'Museo Slab 100'});
+   Cufon.replace('p.big_text strong, p.small_text strong', {fontFamily: 'Museo Slab 700'});
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+   <div class="main">
+      <div class="header">
+         <img src="images/DasNevesComContatos.png" style="display:block; margin-left:auto; margin-right:auto">
+      </div>
+      <div class="content">
+         <p>Brevemente!</span></p>
+      </div>
+   </div>
+
+</div>
+
+<script type="text/javascript">
+var placeholder = $("#test").val();
+
+$("#test").keydown(function() {
+    if (this.value == placeholder) {
+        this.value = '';
+    }
+}).blur(function() {
+    if (this.value == '') {
+        this.value = placeholder;
+    }
+});
+</script>
+</body>
+</html>
